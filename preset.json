@@ -1,0 +1,8 @@
+{
+  "useConfigFiles": true,
+  "cssPreprocessor": "postcss",
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {}
+  }
+}
