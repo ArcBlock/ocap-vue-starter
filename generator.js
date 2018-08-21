@@ -1,6 +1,4 @@
 module.exports = (api, options, rootOptions) => {
-  console.log(api, options, rootOptions);
-
   // modify package.json fields
   api.extendPackage({
     dependencies: {
