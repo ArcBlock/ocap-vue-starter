@@ -2,6 +2,23 @@
 
 > OCAP DApp starter template with [@arcblock/ocap-js](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js) integrated, bootstrapped using [@vue/cli](https://github.com/vuejs/vue-cli).
 
+## Use as vue-cli preset
+
+Make sure you have vue-cli installed.
+
+```shell
+vue create --preset ArcBlock/ocap-vue-starter my-ocap-dapp
+```
+
+## Use as starter template
+
+```shell
+git clone https://github.com/ArcBlock/ocap-vue-starter.git
+cd ocap-vue-starter
+yarn
+yarn run serve
+```
+
 ## OCAP SDK Usage Example
 
 - [src/libs/ocap.js](./src/libs/ocap.js)
@@ -24,34 +41,6 @@
 
 - [react-navigation](https://reactnavigation.org/)
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-
-## Use as vue-cli preset
-
-Make sure you have vue-cli installed.
-
-```shell
-vue create --preset ArcBlock/ocap-vue-starter my-ocap-dapp
-```
-
-## Use as starter template
-
-```shell
-git clone https://github.com/ArcBlock/ocap-vue-starter.git
-yarn
-yarn run serve
-```
-
-### Compiles and minifies for production
-
-```shell
-yarn run build
-```
-
-### Lints and fixes files
-
-```shell
-yarn run lint
-```
 
 ## Important NOTE
 
