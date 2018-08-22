@@ -16,7 +16,7 @@ vue create --preset ArcBlock/ocap-vue-starter my-ocap-dapp
 git clone https://github.com/ArcBlock/ocap-vue-starter.git
 cd ocap-vue-starter
 yarn
-yarn run serve
+yarn serve
 ```
 
 ## OCAP SDK Usage Example
