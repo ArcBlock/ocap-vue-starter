@@ -2,6 +2,9 @@ module.exports = (api, options, rootOptions) => {
   // modify package.json fields
   api.extendPackage({
     dependencies: {
+      'vue-router': '^3.0.1',
+      'semantic-ui-css': '^2.3.3',
+      'semantic-ui-vue': '^0.3.3',
       '@arcblock/ocap-js': '^0.3.8',
       'babel-polyfill': '^6.26.0',
     },

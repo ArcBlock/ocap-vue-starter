@@ -22,8 +22,8 @@ yarn serve
 ## OCAP SDK Usage Example
 
 - [src/libs/ocap.js](./src/libs/ocap.js)
-- [src/pages/Query/index.vue](./src/pages/Query/index.vue)
-- [src/pages/Subscription/index.vue](./src/pages/Subscription/index.vue)
+- [src/views/Query.vue](./src/views/Query.vue)
+- [src/views/Subscription.vue](./src/views/Subscription.vue)
 
 ## OCAP SDK Documentation
 
