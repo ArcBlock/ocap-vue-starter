@@ -39,8 +39,9 @@ yarn serve
 
 ## Other Libraries Included
 
-- [react-navigation](https://reactnavigation.org/)
-- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+- [vue-router](https://router.vuejs.org/)
+- [semantic-ui-vue](https://github.com/Semantic-UI-Vue/Semantic-UI-Vue)
+- [semantic-ui-css](https://github.com/Semantic-Org/Semantic-UI-CSS)
 
 ## Important NOTE
 
