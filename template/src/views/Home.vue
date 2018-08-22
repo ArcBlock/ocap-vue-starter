@@ -1,36 +1,103 @@
 <template>
   <div class="app-content">
     <p>
-      For guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      This is a starter project with
+      <a
+        href="https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js"
+        target="_blank"
+      >
+        @arcblock/ocap-js
+      </a>
+      integrated for Vue.js Developers. It's bootstrapped by
+      <a
+        href="https://github.com/vuejs/vue-cli"
+        target="_blank"
+        rel="noopener"
+      >
+        @vue/cli
+      </a>.
     </p>
-    <div class="vue-sections">
-      <div class="vue-section">
-        <h3>Installed CLI Plugins</h3>
+    <div class="link-sections">
+      <div class="link-section">
+        <h3>OCAP SDK Usage Demos</h3>
         <ul>
-          <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-          <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
+          <li>
+            <router-link to="/query" rel="noopener">
+              Query Demo
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/subscription" rel="noopener">
+              Subscription Demo
+            </router-link>
+          </li>
         </ul>
       </div>
-      <div class="vue-section">
-        <h3>Vue Links</h3>
+      <div class="link-section">
+        <h3>OCAP SDK Documentation</h3>
         <ul>
-          <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-          <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-          <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-          <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-          <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
+          <li>
+            <a
+              href="https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js"
+              target="_blank"
+              rel="noopener"
+            >
+              SDK Homepage
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/ArcBlock/ocap-javascript-sdk/blob/master/packages/ocap-js/docs/spec.md"
+              target="_blank"
+              rel="noopener"
+            >
+              SDK API Specification
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/ArcBlock/ocap-javascript-sdk/blob/master/packages/ocap-js/docs/btc.md"
+              target="_blank"
+              rel="noopener"
+            >
+              Bitcoin API and Response Formats
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/ArcBlock/ocap-javascript-sdk/blob/master/packages/ocap-js/docs/eth.md"
+              target="_blank"
+              rel="noopener"
+            >
+              Ethereum API and Response Formats
+            </a>
+          </li>
         </ul>
       </div>
-      <div class="vue-section">
-        <h3>Vue Libs</h3>
+      <div class="link-section">
+        <h3>Vue.js Libraries Integrated</h3>
         <ul>
-          <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-          <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-          <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-          <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-          <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
+          <li>
+            <a
+              href="https://router.vuejs.org/"
+              target="_blank"
+            >
+              vue-router
+            </a>
+          </li>
+          <li>
+            <a href="https://semantic-ui-vue.github.io/#/" target="_blank">
+              semantic-ui-vue
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Semantic-Org/Semantic-UI-CSS"
+              target="_blank"
+            >
+              semantic-ui-css
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -38,26 +105,15 @@
 </template>
 
 <style>
-.app-json pre {
-  background: #f0f0f0;
-  padding: 10px;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
-}
-
-.vue-sections {
+.link-sections {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.vue-section {
+.link-section {
   text-align: left;
   margin-bottom: 30px;
-}
-
-.alert {
-  color: red;
 }
 </style>

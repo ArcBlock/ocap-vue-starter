@@ -12,10 +12,10 @@
       {{dataSource.name.toUpperCase()}}.newBlockMined subscription success!
     </p>
 
-    <p v-if="subscribed && !message">
-      Waiting for new data
+    <div v-if="subscribed && !message">
+      <p>Waiting for new data</p>
       <Loading />
-    </p>
+    </div>
 
     <div v-if="message" class="app-json">
       <p>New {{dataSource.name.toUpperCase()}} blocked mined at {{timestamp.toString()}}:</p>
@@ -37,7 +37,7 @@ export default {
   },
   data() {
     return {
-      dataSource: dataSources[0],
+      dataSource: dataSources[1],
       message: null,
       timestamp: null,
       subscribed: false,
@@ -70,16 +70,6 @@ export default {
   padding: 10px;
   border: 1px solid #cccccc;
   border-radius: 5px;
-}
-
-.vue-sections {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.vue-section {
-  text-align: left;
 }
 
 .alert {

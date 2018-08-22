@@ -48,13 +48,6 @@ export default {
       address: this.dataSource.demoAddress,
     });
 
-    // Subscription
-    // const subscription = await client.newBlockMined();
-    // subscription.on('data', data => {
-    //   this.timestamp = new Date();
-    //   this.message = data;
-    // });
-
     this.loading = false;
     this.summary = summary;
   },
@@ -67,16 +60,6 @@ export default {
   padding: 10px;
   border: 1px solid #cccccc;
   border-radius: 5px;
-}
-
-.vue-sections {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.vue-section {
-  text-align: left;
 }
 
 .alert {
