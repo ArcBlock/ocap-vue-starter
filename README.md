@@ -2,7 +2,7 @@
 
 > OCAP DApp starter template with [@arcblock/ocap-js](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js) integrated, bootstrapped using [@vue/cli](https://github.com/vuejs/vue-cli).
 
-## Use this repo as vue-cli preset
+## Use as vue-cli preset
 
 Make sure you have vue-cli installed.
 
@@ -10,7 +10,7 @@ Make sure you have vue-cli installed.
 vue create --preset ArcBlock/ocap-vue-starter my-ocap-dapp
 ```
 
-## Use this repo as starter template
+## Use as starter template
 
 ```shell
 git clone https://github.com/ArcBlock/ocap-vue-starter.git
@@ -39,3 +39,7 @@ yarn run build
 ```shell
 yarn run lint
 ```
+
+## Important NOTE
+
+The `template` folder just duplicate some files and folders in the root folder, you should not change any files in this folder by hand, the recommended way to update `template` folder is to run `npm run prepublish` command.

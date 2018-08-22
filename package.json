@@ -22,7 +22,7 @@
     "wangshijun <shijun@arcblock.io> (https://ocap.arcblock.io)"
   ],
   "scripts": {
-    "prepublish": "cp -r src template/ && cp -r public template/ && cp .editorconfig template/_editorconfig && cp vue.config.js template/",
+    "prepublish": "rm -rf template/* && cp -r src template/ && cp -r public template/ && cp .editorconfig template/_editorconfig && cp vue.config.js template/",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
