@@ -7,12 +7,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArcBlock/arc-javascript-sdk"
+    "url": "https://github.com/ArcBlock/ocap-vue-starter"
   },
   "author": "wangshijun <shijun@arcblock.io> (https://ocap.arcblock.io)",
-  "homepage": "https://github.com/ArcBlock/arc-javascript-sdk",
+  "homepage": "https://github.com/ArcBlock/ocap-vue-starter",
   "bugs": {
-    "url": "https://github.com/ArcBlock/arc-javascript-sdk/issues",
+    "url": "https://github.com/ArcBlock/ocap-vue-starter/issues",
     "email": "shijun@arcblock.io"
   },
   "publishConfig": {
