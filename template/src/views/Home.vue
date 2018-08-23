@@ -1,5 +1,6 @@
 <template>
   <div class="app-content">
+    <h2>OCAP Vue Starter</h2>
     <p>
       This is a starter project with
       <a
