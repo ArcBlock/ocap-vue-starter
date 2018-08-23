@@ -45,7 +45,7 @@ yarn serve
 
 ## Deployment
 
-We recommend deploying your project to [now.sh](http://zeit.now/):
+We recommend deploying your project to [now.sh](https://zeit.co/):
 
 1. change your domain alias in [deploy.sh](./deploy.sh)
 2. run `npm run deploy`
