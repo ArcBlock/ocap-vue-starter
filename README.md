@@ -43,6 +43,15 @@ yarn serve
 - [semantic-ui-vue](https://github.com/Semantic-UI-Vue/Semantic-UI-Vue)
 - [semantic-ui-css](https://github.com/Semantic-Org/Semantic-UI-CSS)
 
+## Deployment
+
+We recommend deploying your project to [now.sh](http://zeit.now/):
+
+1. change your domain alias in [deploy.sh](./deploy.sh)
+2. run `npm run deploy`
+
+Congratulations, your project is online.
+
 ## Important NOTE
 
 The `template` folder just duplicate some files and folders in the root folder, you should not change any files in this folder by hand, the recommended way to update `template` folder is to run `npm run prepublish` command.
