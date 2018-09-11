@@ -6,7 +6,9 @@
 
 > For English documentation, please checkout [README.md](./README.md)
 
-## 作为 vue-cli 的 preset 使用
+## 使用方法
+
+### 1. 作为 vue-cli 的 preset 使用
 
 确保系统中已经安装 [vue-cli](https://github.com/vuejs/vue-cli)，直接运行如下命令，初始化项目
 
@@ -17,7 +19,7 @@ yarn
 yarn serve
 ```
 
-## 作为种子项目：直接克隆使用
+### 2. 作为种子项目：直接克隆使用
 
 ```shell
 git clone https://github.com/ArcBlock/ocap-vue-starter.git

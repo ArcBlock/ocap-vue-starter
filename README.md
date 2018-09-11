@@ -6,7 +6,9 @@
 
 > 中文版文档请猛击 [README.cn.md](./README.cn.md)
 
-## Use as vue-cli preset
+## Usage
+
+### 1. Use as vue-cli preset
 
 Make sure you have vue-cli installed.
 
@@ -14,7 +16,7 @@ Make sure you have vue-cli installed.
 vue create --preset ArcBlock/ocap-vue-starter my-ocap-dapp
 ```
 
-## Use as starter template
+### 2. Use as starter template
 
 ```shell
 git clone https://github.com/ArcBlock/ocap-vue-starter.git
