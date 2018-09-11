@@ -4,6 +4,8 @@
 
 > OCAP DApp starter template with [@arcblock/ocap-js](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js) integrated, bootstrapped using [@vue/cli](https://github.com/vuejs/vue-cli).
 
+> 中文版文档请猛击 [README.cn.md](./README.cn.md)
+
 ## Use as vue-cli preset
 
 Make sure you have vue-cli installed.
