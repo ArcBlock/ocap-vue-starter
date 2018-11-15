@@ -25,11 +25,13 @@ yarn
 yarn serve
 ```
 
+> If you are from China, use a mirror npm registry maybe better: `yarn --registry=https://registry.npm.taobao.org`
+
 ## OCAP SDK Usage Example
 
-- SDK 初始化和封装：[src/libs/ocap.js](./src/libs/ocap.js)
-- 使用 SDK 做查询：[src/views/Query.vue](./src/views/Query.vue)
-- 使用 SDK 做实时数据订阅：[src/views/Subscription.vue](./src/views/Subscription.vue)
+- SDK Initialize：[src/libs/ocap.js](./src/libs/ocap.js)
+- Query Demo：[src/views/Query.vue](./src/views/Query.vue)
+- Subscription Demo：[src/views/Subscription.vue](./src/views/Subscription.vue)
 
 ## OCAP SDK Documentation
 
